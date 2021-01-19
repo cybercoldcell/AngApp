@@ -9,9 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AngAPI.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class UsersController : ControllerBase
+
+    public class UsersController : BaseController
     {
         private readonly DataContext _context;
         public UsersController(DataContext context)

@@ -1,4 +1,4 @@
 {
-    "C_Cpp.errorSquiggles": "Enabled",
-    "typescript.enablePromptUseWorkspaceTsdk": true
+    "csharp.suppressBuildAssetsNotification": true,
+    "csharp.semanticHighlighting.enabled": true
 }
